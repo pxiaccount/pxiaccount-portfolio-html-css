@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgb(16, 15, 54);
+    color: white;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: goldenrod;
+}
+
+#nav {
+    overflow: hidden;
+    background-color: rgb(65, 26, 109);
+}
+
+#nav a {
+    float: left;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+#nav a:hover {
+    text-decoration: none;
+    color: rgb(191, 162, 238);
+    padding: 20px;
+    background-color: rgb(92, 57, 189);
+}
+
+#hello {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 35%;
+    left: 15%
+}
+
+#profileimage {
+    position: absolute;
+    top: 43%;
+    right: 8%;
+    transform: translate(-50%, -50%);
+}
+
+#description {
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 43%;
+    left: 20.5%;
+}
+
+/* #content1 {
+    padding-top: 1000px;
+}
+
+#content2 {
+    padding-top: 500px;
+} */
+
+#githubname {
+    position: absolute;
+    left: 22%;
+    top: 32.5%;
+    opacity: 20%;
+}
+
+#about {
+    position: absolute;
+    left: 8%;
+    top: 30%;
+}
+
+#abouttext {
+    width: 85%;
+}
+
+
+#skills {
+    position: absolute;
+    left: 35%;
+    top: 30%;
+}
+
+#skilltext {
+    position: absolute;
+    top: 95%;
+    left: 14%;
+    width: 900px;
+}
